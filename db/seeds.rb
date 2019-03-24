@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Mascot.create(
+  name: 'MyString',
+  age: 2,
+  location: 'MyString',
+  description: 'MyText',
+  gender: 'MyString',
+  friendly_with_kids: false,
+  friendly_with_other_dogs: false,
+  friendly_with_cats: false,
+  species: 'MyString',
+  race: 'MyString'
+)

@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  age: 
+  location: MyString
+  description: MyText
+  gender: MyString
+  friendly_with_kids: false
+  friendly_with_other_dogs: false
+  friendly_with_cats: false
+  species: MyString
+  race: MyString
+
+two:
+  name: MyString
+  age: 
+  location: MyString
+  description: MyText
+  gender: MyString
+  friendly_with_kids: false
+  friendly_with_other_dogs: false
+  friendly_with_cats: false
+  species: MyString
+  race: MyString
