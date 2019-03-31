@@ -6,4 +6,5 @@ Backend: Rails 5 API with GraphQL
 
 Front-end: React-Native
 
-gi
+
+![Database Diagram](public/Database.png)
