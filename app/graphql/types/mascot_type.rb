@@ -7,11 +7,10 @@ module Types
     field :location, String, null: false
     field :description, String, null: false
     field :gender, String, null: false
-    field :friendly_with_kids, Boolean, null: false
-    field :friendly_with_other_dogs, Boolean, null: false
-    field :friendly_with_cats, Boolean, null: false
-    field :species, Boolean, null: false
-    field :race, String, null: false
-
+    field :friendly_with_kids, Boolean, null: true
+    field :friendly_with_other_dogs, Boolean, null: true
+    field :friendly_with_cats, Boolean, null: true
+    field :species, Boolean, null: true
+    field :race, String, null: true
   end
 end

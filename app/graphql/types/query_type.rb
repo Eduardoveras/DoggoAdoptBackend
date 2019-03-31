@@ -3,10 +3,10 @@ module Types
     # Add root-level fields here.
     # They will be entry points for queries on your schema.
 
-    field :allMascots, [MascotType], null: false
-    field :mascot, MascotType, null: true do
+    field :all_mascots, [MascotType], null: false do
       argument :id, ID, required: false
     end
+
     def all_mascots
       Mascot.all
     end
